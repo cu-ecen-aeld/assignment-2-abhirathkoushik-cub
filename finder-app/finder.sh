@@ -1,5 +1,22 @@
 #!/bin/bash
 
+
+#  Copyright (C) 2025 by Abhirath Koushik
+
+#  Redistribution, modification or use of this software in source or binary
+#  forms is permitted as long as the files maintain this copyright. Users are
+#  permitted to modify this and use it to learn about the field of embedded
+#  software. Abhirath Koushik and the University of Colorado are not liable for
+#  any misuse of this material.
+
+#  @file    finder.sh
+#  @brief   This script searches for a string recursively in a given directory
+#           and prints the number of matching lines.
+
+#  @author  Abhirath Koushik
+#  @date    01-20-2025
+
+
 # Check Input Arguments for the Script
 if [ $# -ne 2 ]
 then

@@ -1,5 +1,21 @@
 #!/bin/bash
 
+
+#  Copyright (C) 2025 by Abhirath Koushik
+
+#  Redistribution, modification or use of this software in source or binary
+#  forms is permitted as long as the files maintain this copyright. Users are
+#  permitted to modify this and use it to learn about the field of embedded
+#  software. Abhirath Koushik and the University of Colorado are not liable for
+#  any misuse of this material.
+
+#  @file    writer.sh
+#  @brief   This script writes a string into a given file which is either created or overwritten.
+
+#  @author  Abhirath Koushik
+#  @date    01-20-2025
+
+
 # Check Input Arguments for the Script
 if [ $# -ne 2 ]
 then
